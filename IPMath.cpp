@@ -9,6 +9,13 @@
 // Constructor /////////////////////////////////////////////////////////////////
 // Function that handles the creation and setup of instances
 
+IPv4Address::IPv4Address(void) {
+  // this 'fake constructor' allows creating an 'empty' IPv4Address type variable
+  // later on, the 'real constructor' can be called to actually begin using it.
+	addr = 0;
+	mask = 0;
+}
+
 // Description: Creates a variable of type IPv4Address from a 32-bit number
 // Syntax: IPAddress(address)
 // Parameter: address - 32-bit IPv4 address

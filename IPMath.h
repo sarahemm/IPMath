@@ -13,6 +13,8 @@
 class IPv4Address {
   // user-accessible "public" interface
   public:
+    IPv4Address(void);
+    
     IPv4Address(unsigned long);
     IPv4Address(unsigned long, unsigned long);
     IPv4Address(unsigned long, byte);
