@@ -12,15 +12,15 @@ IPv4Address	KEYWORD1
 # Methods and Functions (KEYWORD2)
 #######################################
 
-ipAddress KEYWORD2
-ipNetmask KEYWORD2
-ipWildcardMask KEYWORD2
-ipNetwork KEYWORD2
-ipBroadcast KEYWORD2
-ipFirstHost KEYWORD2
-ipLastHost KEYWORD2
-nbrOfIPs KEYWORD2
-nbrOfHosts KEYWORD2
+ipAddress	KEYWORD2
+ipNetmask	KEYWORD2
+ipWildcardMask	KEYWORD2
+ipNetwork	KEYWORD2
+ipBroadcast	KEYWORD2
+ipFirstHost	KEYWORD2
+ipLastHost	KEYWORD2
+nbrOfIPs	KEYWORD2
+nbrOfHosts	KEYWORD2
 
 #######################################
 # Instances (KEYWORD2)
